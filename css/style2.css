@@ -21,20 +21,27 @@ body{
 
 }
 
+html {
+    width: 460px;
+}
+
 form {
+    
     background-color: var(--color-1);
     font-family: Poppins,sans-serif;
     font-weight: bold;
     display: flex;
     flex-direction: column;
     border-radius: 1rem;
-    width: 100%;
-    gap: 4rem;
+    width: 70%;
+    gap: 6rem;
     align-items: center;
     justify-content: center;
     margin-top: 1rem;
-    padding-bottom: 2rem;
-    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-top: 0.5rem;
+    margin-left: 4.5rem;
+
    
 
 }
@@ -60,14 +67,14 @@ text-decoration: underline;
 display: flex;
 flex-direction: column;
 width: 90%;
-gap: 2rem;
+gap: 3rem;
 
 }
 
 .interes {
     display: flex;
     flex-direction: column;
-    gap: 1.50rem;
+    gap: 3.5rem;
     width: 90%;
 
  
@@ -78,7 +85,7 @@ gap: 2rem;
 .inquietudes {
     display: flex;
     flex-direction: column;
-  gap:4px;
+  gap: 3rem;
   width: 90%;
 
 
@@ -108,6 +115,12 @@ textarea {
  height: 8rem;
  border-radius: 0.5rem;
  width: 100%;
+}
+
+.escolaridad {
+    display: flex;
+    flex-direction: column;
+    gap : 3rem;
 }
 
 span {
@@ -188,6 +201,7 @@ button {
     grid-column: 1/2;
     grid-row: 1/1 ;
     margin-left: 2rem;
+    gap : 1.3rem;
    
 
     
@@ -200,7 +214,7 @@ button {
         flex-direction: column;
         grid-column: 1/2;
         grid-row: 2/3;
-        gap: 0.5rem;
+        gap: 1rem;
        margin-top: -10rem;
        margin-left: 2rem;
      
@@ -228,7 +242,8 @@ button {
         flex-direction: column;
         grid-column: 2/3;
         grid-row: 2/3;
-        margin-top: -4rem;
+        margin-top: -3.8rem;
+        gap: 10px;
       
     }
     
@@ -251,9 +266,9 @@ button {
         position: relative;
         display: flex;
         flex-direction: row;
-      gap : 0.5rem;
-      top: 0.5rem;
-      right: 13rem;
+      gap : 1rem;
+      top: 2.5rem;
+      right: 13.5rem;
     }
 
     }
@@ -287,6 +302,10 @@ button {
         width: 15rem;
         height: 3rem;
        }
+
+    .button {
+        right: 1rem;
+    }
 
        h1 {
         width: 90%;
