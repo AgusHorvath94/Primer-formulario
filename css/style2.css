@@ -29,7 +29,7 @@ form {
     flex-direction: column;
     border-radius: 1rem;
     width: 100%;
-    gap: 7rem;
+    gap: 6rem;
     align-items: center;
     justify-content: center;
     margin-top: 1rem;
@@ -110,6 +110,12 @@ textarea {
  width: 100%;
 }
 
+.escolaridad {
+    display: flex;
+    flex-direction: column;
+    gap : 3rem;
+}
+
 span {
     background-color: var(--color-3);
     color: #fff;
@@ -188,6 +194,7 @@ button {
     grid-column: 1/2;
     grid-row: 1/1 ;
     margin-left: 2rem;
+    gap : 1.3rem;
    
 
     
@@ -200,7 +207,7 @@ button {
         flex-direction: column;
         grid-column: 1/2;
         grid-row: 2/3;
-        gap: 0.5rem;
+        gap: 1rem;
        margin-top: -10rem;
        margin-left: 2rem;
      
@@ -228,7 +235,8 @@ button {
         flex-direction: column;
         grid-column: 2/3;
         grid-row: 2/3;
-        margin-top: -4rem;
+        margin-top: -3.8rem;
+        gap: 10px;
       
     }
     
@@ -251,9 +259,9 @@ button {
         position: relative;
         display: flex;
         flex-direction: row;
-      gap : 0.5rem;
-      top: 0.5rem;
-      right: 13rem;
+      gap : 1rem;
+      top: 2.5rem;
+      right: 13.5rem;
     }
 
     }
@@ -287,6 +295,10 @@ button {
         width: 15rem;
         height: 3rem;
        }
+
+    .button {
+        right: 1rem;
+    }
 
        h1 {
         width: 90%;
