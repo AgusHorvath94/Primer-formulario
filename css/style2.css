@@ -29,12 +29,12 @@ form {
     flex-direction: column;
     border-radius: 1rem;
     width: 100%;
-    gap: 4rem;
+    gap: 7rem;
     align-items: center;
     justify-content: center;
     margin-top: 1rem;
-    padding-bottom: 2rem;
-    padding-top: 1rem;
+    padding-bottom: 3rem;
+    padding-top: 3rem;
    
 
 }
@@ -60,14 +60,14 @@ text-decoration: underline;
 display: flex;
 flex-direction: column;
 width: 90%;
-gap: 2rem;
+gap: 3rem;
 
 }
 
 .interes {
     display: flex;
     flex-direction: column;
-    gap: 1.50rem;
+    gap: 3.5rem;
     width: 90%;
 
  
@@ -78,7 +78,7 @@ gap: 2rem;
 .inquietudes {
     display: flex;
     flex-direction: column;
-  gap:4px;
+  gap: 3rem;
   width: 90%;
 
 
