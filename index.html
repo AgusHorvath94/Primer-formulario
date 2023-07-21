@@ -1,75 +1,69 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario Untref School</title>
-    <link rel="stylesheet" href="./css/style.css">
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+<link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
-  <main>
-    <h1>Registro para vacante</h1>
-    <form action="https://formsubmit.co/agushorvath994@gmail.com" method="post">  
+    <h1>Registro de vacante</h1>
+    <form action="https://formsubmit.co/agushorvath994@gmail.com" method="post">
+        <div class="contenedor-form">
+            <label for="bio"> <span>1</span>Datos principales : </label><br>
+        
+            <label for="validationDefault01">Nombre</label>
+            <input type="text" class="form-control" id="validationDefault01" placeholder="First name" value="Mark" required>
+         
+         
+            <label for="validationDefault02">Email</label>
+            <input type="email" class="form-control" id="validationDefault02" placeholder="Last name" value="Otto" required>
+         
       
-   
-        <section class="datos">
        
-    <legend> <span> 1 </span> Datos principales</legend>
-      <label for="nombre">Nombre:</label>
-      <input type="text" placeholder="Ejemplo Martin Gomez" name=" nombre" id="nombre">
-      <label for="email">Email:</label>
-      <input type="email" placeholder="ddd@gmail.com" name="email" id="email">
-      <label for="contraseña">Contraseña:</label>
-      <input type="password" placeholder="123abcde" name="contraseña" id="contraseña"><br>
-
- 
-    </section>
-
-  
-        <section class="interes">
-        <legend> <span> 2 </span> Datos de interes institucional:</legend><br>
+        <div class="form-row">
+          <div class="col-md-6 mb-3">
+            <label for="validationDefault03">Fecha de nacimiento</label><br><br>
+            <input type="date" class="form-control" id="validationDefault03" placeholder="City" required>
+          </div><br>
+          <div class="col-md-3 mb-3">
+            <legend> <span> 2 </span> Datos de interes institucional:</legend><br><br>
       
-      <label for="grado">Grado:</label><br>
-      <select name="grado" id="grado">
-        <option value="1"> 1° GRADO</option>
-        <option value="2">2° GRADO</option>
-        <option value="3">3° GRADO</option>
-        <option value="4">4° GRADO</option>
-        <option value="5">5° GRADO</option>
-        <option value="6">6° GRADO</option>
-      </select><br>
-
-      <label for="foto">Foto de perfil : </label><br>
-      <input type="file" name="foto" id="foto" accept="image/*" ><br>
-
-      <label for="fecha">Fecha de nacimiento : </label><br>
-      <input type="date" name="fecha" id="fecha">
-    </section><br>
-
- 
-    <section class="inquietudes">
-      <label for="bio">Inquietudes : </label>
+            <label for="grado">Grado:</label><br>
+            <select name="grado" id="grado">
+              <option value="1"> 1° GRADO</option>
+              <option value="2">2° GRADO</option>
+              <option value="3">3° GRADO</option>
+              <option value="4">4° GRADO</option>
+              <option value="5">5° GRADO</option>
+              <option value="6">6° GRADO</option>
+            </select><br><br>
+          <div class="col-md-3 mb-3">
+        
+        </div><br>
+        <div class="form-group">
+         
+            <label for="bio">Inquietudes : </label><br>
       <textarea name="bio" id="bio" ></textarea>
+            </label>
+            <div class="escolaridad"><br>
+            <label for="Escolaridad">Escolaridad:</label>
+            <label for="ma"><input type="checkbox" name="Escolaridad" value="mañana" id="ma">
+           Turno mañana</label>
+            
+            <label for="ta"><input type="checkbox" name="Escolaridad" value="tarde" id="ta">
+         Turno tarde</label>
+        </div>
+        </div><br><br>
 
-  <section>
-   <div>
-    <div class="escolaridad"><br>
-      <label for="Escolaridad">Escolaridad:</label>
-      <label for="ma"><input type="checkbox" name="Escolaridad" value="mañana" id="ma">
-     Turno mañana</label>
-      
-      <label for="ta"><input type="checkbox" name="Escolaridad" value="tarde" id="ta">
-   Turno tarde</label>
-  </div>
-</section>
-      
-
-
- 
-</section> <br>
-
- 
-        <section class="news">
+        <div class="news">
         <legend> <span> 3</span> Noticias</legend><br>
  
 
@@ -77,19 +71,27 @@
       <label for="si"><input type="radio" name="newsletter" id="si" value="Sí, me gustaria recibir la noticia por correo">
      Sí, me gustaria recibir noticias</label> <br>
      <label for="no"> <input type="radio" name="newsletter" id="no" value="No, prefiero recibir la noticia por telefono">
-    No enviarme noticias</label> 
+    No enviarme noticias</label>
+    </div>
+
+    
+      </form>
+
+    </div> 
     <div class="button"> 
     <button type="reset"> RESETEAR</button><br>
     <button type="submit"> ENVIAR </button>
     </div>
-    
-</section>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
 
-
-    </form>
-   </main>
-    
-</html>
-    
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+  </div>
+ 
 </body>
+
 </html>
