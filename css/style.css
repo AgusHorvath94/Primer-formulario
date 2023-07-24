@@ -10,7 +10,7 @@
 }
 
 * {
-  margin: 0;
+  margin: 3px;
   padding: 0;
 }
 
@@ -31,6 +31,7 @@ form {
   font-family: poppins, sans-serif;
   font-weight: 900;
   padding: 2rem;
+  border-radius: 1rem;
 }
 
 textarea {
@@ -51,5 +52,6 @@ button {
   display: flex;
   flex-direction: row;
   gap: 1rem;
+  border-radius: 0.5rem;
 }
 
